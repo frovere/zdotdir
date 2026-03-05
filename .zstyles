@@ -1,0 +1,34 @@
+#!/usr/bin/env zsh
+
+# Use caching.
+zstyle ':zephyr:plugin:*' 'use-cache' yes
+
+#
+# Completions
+#
+
+zstyle ':zsh_custom:plugin:*' 'use-cache' no
+zstyle ':zsh_custom:plugin:completion' compstyle zshzoo
+
+zstyle ':zephyr:plugin:history' histfile "${ZDOTDIR:-$HOME}/.zsh_history"
+zstyle ':zephyr:plugin:history' histsize 50000
+zstyle ':zephyr:plugin:editor' 'magic-enter' no
+
+# zstyle ':completion:*:*:git:*' script /opt/homebrew/share/zsh/site-functions/git-completion.bash
+
+#
+# ZSH_CUSTOM features
+#
+
+# zfunctions location
+zstyle ':zsh_custom:plugin:zfunctions' directory $ZDOTDIR/functions
+
+#
+# Prompt
+#
+
+# Set prompt
+zstyle ':zephyr:plugin:prompt' theme p10k rvr
+
+# Customize your ssh identities. The default is 'id_rsa' and 'id_ed25519'
+zstyle ':prezto:module:ssh:load' identities 'id_rsa' 'id_ed25519' 'work_ed25519'

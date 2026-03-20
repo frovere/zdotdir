@@ -9,7 +9,7 @@ export ZDOTDIR=${ZDOTDIR:-$XDG_CONFIG_HOME/zsh}
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk
-export ANDROID_NDK=$ANDROID_NDK_HOME/26.1.10909125
+export ANDROID_NDK=$ANDROID_NDK_HOME/27.1.12297006
 
 # export NODE_BINARY=$HOME/.local/share/fnm/aliases/default/bin
 

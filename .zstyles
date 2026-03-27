@@ -24,6 +24,12 @@ zstyle ':zephyr:plugin:editor' 'magic-enter' no
 zstyle ':zsh_custom:plugin:zfunctions' directory $ZDOTDIR/functions
 
 #
+# ZMV - Batch file renaming
+#
+
+zstyle ':zsh_custom:plugin:zmv' 'enabled' yes
+
+#
 # Prompt
 #
 

@@ -28,7 +28,10 @@ source $ZSH_CONFIG_DIR/lib/antidote.zsh
 #source $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh
 #antidote load
 
-eval "$(fnm env --use-on-cd --shell zsh)" > /dev/null 2>&1
+# fnm
+if [ -d "$FNM_PATH" ]; then
+  eval "$(fnm env --use-on-cd --version-file-strategy=recursive --shell zsh)" > /dev/null 2>&1
+fi
 
 # Source conf.d.
 for _rc in $ZSH_CONFIG_DIR/conf.d/*.zsh; do

@@ -15,6 +15,7 @@ export ANDROID_NDK=$ANDROID_NDK_HOME/27.1.12297006
 
 source $ZDOTDIR/functions/load-brew
 
+export FNM_PATH="$HOMEBREW_PREFIX/opt/fnm/bin"
 export PNPM_HOME="$HOME/.local/share/pnpm"
 export NODE_COMPILE_CACHE=$HOME/Library/Caches/nodejs-compile-cache
 

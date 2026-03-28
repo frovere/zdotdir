@@ -41,6 +41,8 @@ for _rc in $ZSH_CONFIG_DIR/conf.d/*.zsh; do
 done
 unset _rc
 
+ZSH_COMPDUMP=$XDG_CACHE_HOME/zsh/zcompdump
+compinit -i -d "$ZSH_COMPDUMP"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

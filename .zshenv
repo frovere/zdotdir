@@ -10,6 +10,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk
 export ANDROID_NDK=$ANDROID_NDK_HOME/27.1.12297006
+export DBNING_POSTGRESQL_PATH=/Users/Shared/DBngin/postgresql/18.1/bin
+export DBNING_REDIS_PATH=/Users/Shared/DBngin/redis/7.0.0/bin
 
 # export NODE_BINARY=$HOME/.local/share/fnm/aliases/default/bin
 

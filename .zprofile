@@ -54,6 +54,8 @@ prepath=(
   "$HOME/Library/Application Support/Herd/bin"(N)
   "$HOME/Library/Application Support/JetBrains/Toolbox/scripts"(N)
   ${XDG_CONFIG_HOME:-$HOME}/composer/vendor/bin(N)
+  $DBNING_POSTGRESQL_PATH(N)
+  $DBNING_REDIS_PATH(N)
   $PNPM_HOME(N)
   $HOME/.maestro/bin(N)
   $HOME/{,s}bin(N)

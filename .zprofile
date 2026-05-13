@@ -56,7 +56,7 @@ prepath=(
   ${XDG_CONFIG_HOME:-$HOME}/composer/vendor/bin(N)
   $DBNING_POSTGRESQL_PATH(N)
   $DBNING_REDIS_PATH(N)
-  $PNPM_HOME(N)
+  $PNPM_HOME/bin(N)
   $HOME/.maestro/bin(N)
   $HOME/{,s}bin(N)
   $HOME/.local/{,s}bin(N)
